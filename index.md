@@ -1,3 +1,3 @@
 # SVG Simple Images
 
-Please check [README](README.html).
+Please check [README](./README.html).
