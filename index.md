@@ -9,5 +9,5 @@ Most of imaes are created using [Inkscape](https://inkscape.org/).
 
 |Image|Title|
 |:----|:----------|
-|![](arrow/Rotate_90.svg)|Rotate 90|
-|![](arrow/Rotate_90x2.svg)|Rotate 90x2|
+|![](Arrow/Rotate_90.svg)|Rotate 90|
+|![](Arrow/Rotate_90x2.svg)|Rotate 90x2|
