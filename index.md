@@ -15,6 +15,7 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 
 ## Other Useful Links
 
-## Test
+## Test for Local Pages
 
 * [Test](docs/test.html)
+* [README](README.html)
