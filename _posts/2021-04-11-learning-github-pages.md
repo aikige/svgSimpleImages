@@ -1,3 +1,8 @@
+---
+layout: post
+title: Learning GitHub Pages
+---
+
 # Learnig GitHub Pages
 
 ## 基本方針
