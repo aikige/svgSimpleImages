@@ -18,7 +18,6 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 
 ## Test for Local Pages
 
-* [README](README.html) - it looks that [README.md](README.md) is not converted.
 * [Test](docs/test.html) - other markdown file seems to be converted automtically.
 
 ## Blog Posts
