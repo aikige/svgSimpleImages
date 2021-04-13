@@ -1,12 +1,58 @@
 # Learnig GitHub Pages
 
-## 基本方針
-
-1. ローカルの検証に便利そうなので、Jekyll の実行環境を整える。
-1. ローカルの環境は Docker を使うと取り回しが楽そうなので Docker を使う。Docker Image は公式のもの [jekyll/jekyll](https://hub.docker.com/r/jekyll/jekyll) を利用する。 
-    * 参考: [JekyllをDokcer上で動かしてGitHub Pagesのローカル環境での確認を楽する](https://qiita.com/shifumin/items/8d5d26dfa18d4b62d873)
-
 ## Setup
+
+### Jekyll 設定
+
+以下の設定は Widnows で実施しています。
+
+前提条件: Rubyはインストール済み。
+
+1. 必要なものをインストールする
+
+    ```
+    gem install jekyll bundler
+    ```
+
+1. 既存のプロジェクトを Jekyll 対応にする場合:
+
+    ```
+    jekyll new --force .
+    ```
+
+1. 以下のファイルができる
+
+    * `Gemfile`
+    * `Gemfile.lock`
+    * `_config.yml`
+    * `about.markdown`
+    * `index.markdown`
+
+1. [GitHub Pages のガイドライン]() に従って、`Gemfile` を編集する：
+
+    1. `gem "jekyll", "~> 4.*.*"` の部分をコメントアウト
+    1. `gem "github-pages", group: :jekyll_plugins` の部分を有効にする。
+
+1. Bundle 設定に従って更新する
+
+    ```
+    bundle udpate
+    ```
+
+1. お試し
+
+    ```
+    bundle exec jekyll server
+    ```
+
+    * エラーが出る:
+
+    ```
+    C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
+    ```
+
+    * `gem "webrick"` を Gemfile に追加する
+
 
 ### Windows 10 Home で Docker を使う
 
