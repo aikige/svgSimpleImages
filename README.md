@@ -24,6 +24,8 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 
 <ul>
   {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br />
+    {{ post.excerpt }}
+    </li>
   {% endfor %}
 </ul>
