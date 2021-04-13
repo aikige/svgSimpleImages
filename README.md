@@ -22,8 +22,14 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 
 ## Blog Posts
 
+{% if site.paginate %}
+    {% assign posts = paginator.posts %}
+{% else %}
+    {% assign posts = site.posts %}
+{% endif %}
+
 <ul>
-  {% for post in site.posts %}
+  {% for post in posts %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br />
     {{ post.excerpt }}
     </li>
