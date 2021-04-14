@@ -1,4 +1,6 @@
-# Learnig GitHub Pages
+---
+title: Learnig GitHub Pages
+---
 
 ## Setup
 
