@@ -18,7 +18,15 @@ The liquid code which did not work for Project page.
 ```
 {% endraw %}
 
-The URL pointed to `https://aikige.github.io/YYYY/MM/DD/title.html`.
+Output:
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+  {% endfor %}
+</ul>
+
+The URL seems to point `https://aikige.github.io/YYYY/MM/DD/title.html`.
 
 Followin code worked.
 
@@ -30,6 +38,8 @@ Followin code worked.
     {% assign posts = site.posts %}
 {% endif %}
 
+Output:
+
 <ul>
   {% for post in posts %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
@@ -37,8 +47,6 @@ Followin code worked.
 </ul>
 ```
 {% endraw %}
-
-## Output
 
 <!-- to retrieve URL for blog posts, need to consider paginate -->
 {% if site.paginate %}
