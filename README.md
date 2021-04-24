@@ -1,7 +1,7 @@
 # SVG Simple Images
 
-This project is used to publish SVG images that I creted for myself, but might be useful for others.
-Most of imaes are created using [Inkscape](https://inkscape.org/).
+This project is used to publish SVG images that I created for myself, but might be useful for others.
+Most of images are created using [Inkscape](https://inkscape.org/).
 
 Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all contents in this page.
 
@@ -11,9 +11,11 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 |:----|:----------|
 |![](Arrow/Rotate_90.svg)|Rotate 90|
 |![](Arrow/Rotate_90x2.svg)|Rotate 90x2|
+|![](Frame/CloudFrame.svg)|Cloud shaped frame||
+|![](Icon/CloudOutline.svg)|Cloud Icon|
 
 ## Test for Local Pages
 
-* [Test](docs/test.html) - other markdown file seems to be converted automtically.
+* [Test](docs/test.html) - other markdown file seems to be converted automatically.
 
 ---

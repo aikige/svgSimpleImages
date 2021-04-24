@@ -56,13 +56,39 @@ title: Learnig GitHub Pages
     * `gem "webrick"` を Gemfile に追加する
 
 
+## Docker を使う場合の Setup
+
 ### Windows 10 Home で Docker を使う
 
 基本参考文献: [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
 
 1. Windows 10 Home で WSL2 を有効にする:
     * [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) を参考に WSL2 を有効にする。
+        1. `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+        2. `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+        3. Download the Linux kernel update package
 1. Docker をインストールする
+    * 問題:
+        1. Virturization Technologyがないと言われる -- BIOSを設定してVirturizationをONにする。
+            * 対策: 利用しているASUSのPCの場合、以下の設定が必要（VMS ONだけだとブートしなくなった）
+                * VMS Technology: ON (Default OFF)
+                * Frame Buffer Size: Auto (Defaultは512だった)
+            * 参考文献:
+                * 
+        1. 通常ユーザ（※私は普段、管理者権限がないユーザでログインしている）でログインした際に、
+            以下のようなポップアップが表示されるが、Windows 10 Home の場合、グループポリシーのGUIが無い。
+
+            > You are not allowed to use Docker, You must be in the "docker-users" group.
+
+            * 対策: `net localgroup` コマンドを利用してユーザを追加する。
+                
+                1. コマンド実行: `net localgroup docker-users YOUR_ID`
+                1. ログオフ
+                1. ログオン
+
+            * 参考文献:
+                * Qiita > [Docker for Windowsで起動時に「Docker for Windows - Access denied」と表示される場合の対処法](https://qiita.com/toro_ponz/items/d75706a3039f00ba1205)
+                * Windowsコマンド虎の巻 > [net localgroup](https://windows.command-ref.com/cmd-net-localgroup.html) 
 
 ## Know How
 
@@ -77,3 +103,5 @@ title: Learnig GitHub Pages
 ## 参考文献
 
 * [GitHub Pagesのアクセス管理](https://github.blog/jp/2021-01-25-access-control-for-github-page/)
+
+* [Bundler](https://bundler.io/)
