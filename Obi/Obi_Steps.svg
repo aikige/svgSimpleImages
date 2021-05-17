@@ -13,8 +13,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="Obi3.svg"
-   inkscape:export-filename="C:\Users\gahog\Documents\minamino\github\jekyll-theme-minamino\assets\img\Obi_Step4.png"
+   sodipodi:docname="Obi_Steps.svg"
+   inkscape:export-filename="C:\Users\gahog\Documents\minamino\github\jekyll-theme-minamino\assets\img\Obi_Alt_Step4.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -30,7 +30,7 @@
      inkscape:cx="381.12783"
      inkscape:cy="410.9215"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="g862"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-bbox="true"
@@ -88,14 +88,6 @@
        style="display:inline;fill:#d98c8c;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 630.43555,300.32812 c -0.10129,8.84899 -14.00618,17.49916 -40.00196,24.88477 v 0.14063 l -250.88476,80.76757 v 0.002 l -308.589846,98.71289 13.31836,42.16797 308.822266,-98.78907 c 24.73708,-8.54702 252.36718,-79.42469 251.46875,-82.22461 17.00617,-6.32908 25.86545,-13.31734 25.86719,-20.40429 3e-4,-0.0412 3e-4,-0.0819 0,-0.12305 z"
        transform="scale(0.26458333)" />
-    <path
-       id="path840-3-5"
-       style="display:inline;fill:#b2b2b2;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 169.00002,81.025548 a 64.000152,11.999999 0 0 1 -63.99971,11.97446 64.000152,11.999999 0 0 1 -64.000229,-11.96775 v 11.96775 a 64.000152,11.999999 0 0 0 63.999709,11.999782 64.000152,11.999999 0 0 0 64.00023,-11.999782 64.000152,11.999999 0 0 0 0,-0.0326 z" />
-    <path
-       id="path840-3-2-3"
-       style="display:inline;fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 38.678687,82.937205 v 11.967746 a 64.000152,11.999998 0 0 0 13.21469,7.302399 l -0.002,0.005 56.521613,17.53744 13.80122,-7.96799 -66.855353,-20.743955 v -0.05323 a 64.000152,11.999998 0 0 1 -16.68063,-8.047572 z" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -122,17 +114,6 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer8"
-     inkscape:label="レイヤー 5.7(1,2,3,4)"
-     style="display:inline">
-    <path
-       id="path840-3-2-9"
-       style="display:inline;fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 38.678263,82.990359 c 0.03534,4.153012 -0.07125,8.313797 0.05428,12.461871 1.324382,3.218362 5.152813,4.196828 8.107505,5.36975 12.166708,3.52674 24.237989,7.45041 36.361747,11.15847 8.403728,2.60749 16.807455,5.21499 25.211185,7.82248 4.60041,-2.656 9.20082,-5.31199 13.80123,-7.96799 C 99.864286,104.54671 71.682708,97.412309 49.380449,89.989364 44.138535,88.209913 41.671576,87.163284 39.79881,85.194424 39.206715,84.611628 38.688084,83.852947 38.678263,82.990359 Z"
-       sodipodi:nodetypes="ccccccccc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="レイヤー 5.8(4)"
      style="display:inline">
@@ -144,6 +125,37 @@
        x="120.20193"
        y="21.349348"
        transform="rotate(30)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g862"
+     inkscape:label="レイヤー 5.5(All別法)"
+     style="display:none">
+    <path
+       id="path860"
+       style="display:inline;fill:#b2b2b2;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 169.00002,81.025543 a 64.000152,11.999999 0 0 1 -63.99971,11.97447 64.000152,11.999999 0 0 1 -64.000229,-11.96775 v 11.96775 a 64.000152,11.999999 0 0 0 63.999709,11.999777 64.000152,11.999999 0 0 0 64.00023,-11.999777 64.000152,11.999999 0 0 0 0,-0.0326 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g854"
+     inkscape:label="レイヤー 5.9(2,3,4別法)"
+     style="display:none">
+    <path
+       id="path852"
+       style="display:inline;fill:#d9d9f2;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 110.5142,78.590046 41.23213,118.59019 47.0819,128.72238 122.21426,85.345186 Z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="レイヤー 5.7(1,2,3,4)"
+     style="display:inline">
+    <path
+       id="path840-3-2-9"
+       style="display:inline;fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.678263,82.990359 c 0.03534,4.153012 -0.07125,8.313797 0.05428,12.461871 1.324382,3.218362 5.152813,4.196828 8.107505,5.36975 12.166708,3.52674 24.237989,7.45041 36.361747,11.15847 8.403728,2.60749 16.807455,5.21499 25.211185,7.82248 4.60041,-2.656 9.20082,-5.31199 13.80123,-7.96799 C 99.864286,104.54671 71.682708,97.412309 49.380449,89.989364 44.138535,88.209913 41.671576,87.163284 39.79881,85.194424 39.206715,84.611628 38.688084,83.852947 38.678263,82.990359 Z"
+       sodipodi:nodetypes="ccccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -176,9 +188,4 @@
        d="m 308.88086,42.425781 -0.002,280.140629 v 100.11914 l 44.2207,25.53125 V 297.03516 42.425781 Z"
        transform="scale(0.26458333)" />
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer13"
-     inkscape:label="レイヤー 7"
-     style="display:none" />
 </svg>
