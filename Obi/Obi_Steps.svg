@@ -132,19 +132,6 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path1069-3" />
     </marker>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1695"
-       x="-9.7143257e-07"
-       width="1.0000019"
-       y="-1.5692203e-06"
-       height="1.0000031">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.2778616e-05"
-         id="feGaussianBlur1697" />
-    </filter>
     <marker
        style="overflow:visible"
        id="TriangleOutM-91"
@@ -195,11 +182,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70000001"
-     inkscape:cx="712.21409"
-     inkscape:cy="406.43325"
+     inkscape:zoom="1.979899"
+     inkscape:cx="357.78597"
+     inkscape:cy="440.90325"
      inkscape:document-units="mm"
-     inkscape:current-layer="g854"
+     inkscape:current-layer="layer7"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-bbox="true"
@@ -261,7 +248,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="赤、根元側(3,4)"
+     inkscape:label="赤、終・根元(3,4)"
      style="display:inline">
     <path
        id="path840-3-4-3"
@@ -332,10 +319,9 @@
      inkscape:label="青、終・根本(1～)"
      style="display:inline">
     <path
-       id="path840-3-2-9"
-       style="display:inline;fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 38.678263,82.990359 c 0.03534,4.153012 -0.07125,8.313797 0.05428,12.461871 1.324382,3.218362 5.152813,4.196828 8.107505,5.36975 12.166708,3.52674 24.237989,7.45041 36.361747,11.15847 8.403728,2.60749 16.807455,5.21499 25.211185,7.82248 4.60041,-2.656 9.20082,-5.31199 13.80123,-7.96799 C 99.864286,104.54671 71.682708,97.412309 49.380449,89.989364 44.138535,88.209913 41.671576,87.163284 39.79881,85.194424 39.206715,84.611628 38.688084,83.852947 38.678263,82.990359 Z"
-       sodipodi:nodetypes="ccccccccc" />
+       id="rect854-7-7"
+       style="display:inline;fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 38.850826,82.929364 c -0.01476,7.318479 -0.01289,8.388719 0.0041,12.528429 1.324383,3.21836 5.202949,4.13063 8.157641,5.303557 20.356916,6.43368 40.831416,12.79245 61.346123,19.10891 l 13.68392,-7.90029 C 96.535043,104.208 71.575153,96.604873 49.552988,89.928423 44.299853,88.130003 38.967287,86.416353 38.850799,82.929364 Z" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -345,9 +331,16 @@
     <path
        id="rect854-7"
        style="fill:#b3b3e5;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 146.18555,313.67578 c 0.13357,15.69642 -0.26937,31.42187 0.20507,47.09961 5.00554,12.16388 19.47524,15.86378 30.64258,20.29688 180.34722,56.9977 363.08697,112.49349 544.6836,167.82226 l 12.88672,-42.30078 -273.61524,-83.36523 c -96.184,-28.89617 -182.48699,-52.8009 -274.35351,-83.09961 -19.81196,-6.72548 -29.13668,-10.68169 -36.21485,-18.12305 -2.23784,-2.20271 -4.19725,-5.0699 -4.23437,-8.33008 z"
-       sodipodi:nodetypes="ccccccccc"
+       d="m 146.18555,313.67578 c -0.0558,27.66041 -0.0484,31.70598 0.0157,47.35215 5.00554,12.16388 19.66464,15.61124 30.83198,20.04434 180.34722,56.9977 363.08697,112.49349 544.6836,167.82226 l 12.88672,-42.30078 C 554.35279,452.13419 349.32851,389.4527 186.63477,340.12891 166.78041,333.33177 146.62582,326.85495 146.18555,313.67578 Z"
+       sodipodi:nodetypes="ccccccc"
        transform="scale(0.26458333)" />
+    <rect
+       style="fill:#f2d9d9;stroke:#4d4d4d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       id="rect953"
+       width="2.8846126"
+       height="19.105501"
+       x="34.260128"
+       y="82.419243" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -364,10 +357,10 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="青、終・端(2,3,4)"
-     style="display:inline;filter:url(#filter1695)">
+     style="display:inline;">
     <path
        id="rect907-0-3"
-       style="display:inline;fill:#d9d9f2;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#d9d9f2;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal;stroke-opacity:1"
        d="M 110.5142,78.590046 41.23213,118.59019 47.0819,128.72238 122.21426,85.345186 Z" />
   </g>
   <g
