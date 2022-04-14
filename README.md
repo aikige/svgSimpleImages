@@ -14,7 +14,7 @@ Since I believe SVG is a kind of code, [MIT License](LICENSE) is applied to all 
 |![](Frame/CloudFrame.svg)|Cloud shaped frame||
 |![](Icon/CloudOutline.svg)|Cloud Icon|
 |![](Icon/Giteki_Mark.svg)|Giteki Mark (技適マーク), which follows [standard](https://www.tele.soumu.go.jp/j/sys/equ/tech/gitekimark/index.htm).|
-|![](Obi/Obi_Steps.svg)|Diagram which shows how to tie Obi for Aikido.|
+|![](Obi/Obi_Steps.svg)|Diagram which shows how to tie Obi for Aikido. Data includes hidden layer which shows other steps of tying it.|
 |![](Obi/Obi_Final.svg)|Diagram which shows tied Obi.|
 
 ## Test for Local Pages
